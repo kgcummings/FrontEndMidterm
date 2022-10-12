@@ -1,0 +1,48 @@
+a{
+    cursor: url('cake.gif');
+}
+body{
+    background-image: url('skystarlight.gif');
+    font-size: 50px;
+}
+
+.center{
+    display:inline-block;
+    float:center;
+    width:50%;
+    padding:10px;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Nabla', cursive;
+    background-color:#4f4fff;
+    border-radius: 12px;
+}
+
+.lsidebar{
+    width:20%;
+    float:left;
+    margin-right: 20px;
+    padding:10px;
+    border: 1px solid white;
+    color: white;
+    font-size:20px;
+    background-color:#4f4fff;
+    border-radius: 12px;
+}
+
+.rsidebar{
+    width:20%;
+    float:right;
+    margin-left: 10px;
+    padding:10px;
+    border: 1px solid white;
+    color: white;
+    font-size:20px;
+    background-color:#4f4fff;
+    border-radius: 12px;
+}
+
+.cake{
+    background:pink;
+    border-radius: 12px;
+}
