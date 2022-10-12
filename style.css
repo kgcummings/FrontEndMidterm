@@ -31,7 +31,9 @@ body{
     font-family: 'Paytone One', sans-serif;
 
 }
-
+.lsidebar:hover{
+    color:green;
+}
 .rsidebar{
     width:20%;
     float:right;
