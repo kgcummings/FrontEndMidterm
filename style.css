@@ -22,12 +22,14 @@ body{
     width:20%;
     float:left;
     margin-right: 20px;
-    padding:10px;
+    padding:0px;
     border: 1px solid white;
-    color: white;
-    font-size:20px;
+    color: lightskyblue;
+    font-size:60px;
     background-color:#4f4fff;
     border-radius: 12px;
+    font-family: 'Paytone One', sans-serif;
+
 }
 
 .rsidebar{
