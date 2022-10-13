@@ -3,7 +3,7 @@ a{
 }
 body{
     background-image: url('skystarlight.gif');
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .center{
@@ -17,6 +17,10 @@ body{
     background-color:#4f4fff;
     border-radius: 12px;
     flex-grow: 3;
+    font-size: 7vw;
+}
+link:hover{
+    color:coral;
 }
 
 .lsidebar{
@@ -25,11 +29,12 @@ body{
     padding:0px;
     border: 1px solid white;
     color: lightskyblue;
-    font-size:60px;
+    font-size:5vw;
     background-color:#4f4fff;
     border-radius: 12px;
     font-family: 'Paytone One', sans-serif;
 flex-grow: 1;
+
 
 }
 .rsidebar{
@@ -52,5 +57,9 @@ flex-grow: 1;
 .webcolumns{
     display: flex;
     align-content: space-between;
-    gap:10px
+    gap:20px
+}
+
+link:hover{
+    color:green;
 }
