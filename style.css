@@ -26,7 +26,7 @@ body{
 }
 
 .centercol{
-    float:center;
+   display: block;
     background-color:#4f4fff;
     border-radius: 12px;
     flex-grow: 3;
@@ -43,7 +43,7 @@ body{
     padding:0px;
     border: 1px solid white;
     color: lightskyblue;
-    font-size:3vw;
+    font-size:100%;
     background-color:#4f4fff;
     border-radius: 12px;
     font-family: 'Paytone One', sans-serif;
