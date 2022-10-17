@@ -1,6 +1,17 @@
 a{
 
 }
+a:link{
+    color:coral;
+    text-decoration: none;
+}
+a:visited{
+    color:lightskyblue;
+}
+a:hover{
+    color:rgb(244, 192, 35);
+    text-decoration: underline;
+}
 body{
     background-image: url('skystarlight.gif');
     font-size: 30px;
@@ -11,18 +22,19 @@ body{
     float:center;
     width:50%;
     padding:10px;
-    flex-grow: 3;
+    flex-grow:3;
 }
 
 .centercol{
-    display:inline-block;
+    float:center;
     background-color:#4f4fff;
     border-radius: 12px;
     flex-grow: 3;
-    font-size: 7vw;
+    font-size: 3vw;
     border: 1px solid white;
     color: white;
     margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .lsidebar{
@@ -31,7 +43,7 @@ body{
     padding:0px;
     border: 1px solid white;
     color: lightskyblue;
-    font-size:5vw;
+    font-size:3vw;
     background-color:#4f4fff;
     border-radius: 12px;
     font-family: 'Paytone One', sans-serif;
@@ -60,9 +72,4 @@ body{
     align-content: space-between;
     gap:20px;
     margin:80px;
-}
-
-.centertext{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 35px;
 }
