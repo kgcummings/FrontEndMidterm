@@ -72,4 +72,5 @@ body{
     align-content: space-between;
     gap:20px;
     margin:80px;
+    cursor: url(mouse.png), auto;
 }
