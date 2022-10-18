@@ -68,3 +68,17 @@ body{
     margin:80px;
     cursor: url(mouse.png), auto;
 }
+
+
+/* MEDIA QUERIES */
+@media(min-width: 0px) and (max-width: 650px) {
+
+    .lsidebar{
+        width:10%
+    }
+
+    .rsidebar{
+        width:10%
+    }
+    
+}
