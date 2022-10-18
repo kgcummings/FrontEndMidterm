@@ -1,6 +1,8 @@
+/*LINK STUFF*/
 a{
 
 }
+
 a:link{
     color:coral;
     text-decoration: none;
@@ -12,11 +14,13 @@ a:hover{
     color:rgb(244, 192, 35);
     text-decoration: underline;
 }
+/*BG*/
 body{
     background-image: url('skystarlight.gif');
     font-size: 30px;
 }
 
+/*COLUMNS*/
 .center{
     display:inline-block;
     float:center;
@@ -35,6 +39,8 @@ body{
     color: white;
     margin: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: wrap;
+    float:center;
 }
 
 .lsidebar{
@@ -43,13 +49,11 @@ body{
     padding:0px;
     border: 1px solid white;
     color: lightskyblue;
-    font-size:100%;
+    font-size:3vw;
     background-color:#4f4fff;
     border-radius: 12px;
     font-family: 'Paytone One', sans-serif;
     flex-grow:1;
-
-
 }
 .rsidebar{
     width:20%;
@@ -61,11 +65,6 @@ body{
     background-color:#4f4fff;
     border-radius: 12px;
     flex-grow:1;
-}
-
-.cake{
-    background:pink;
-    border-radius: 12px;
 }
 .webcolumns{
     display: flex;
