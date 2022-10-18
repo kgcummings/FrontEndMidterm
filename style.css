@@ -41,6 +41,7 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     flex-wrap: wrap;
     float:center;
+    align-self: auto;
 }
 
 .lsidebar{
