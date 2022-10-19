@@ -13,6 +13,7 @@ a:visited{
 a:hover{
     color:rgb(244, 192, 35);
     text-decoration: underline;
+   font-style: italic;
 }
 
 /*BG*/
@@ -26,6 +27,11 @@ p{
     font-size:1.5vw;
     text-align: center;
     padding:1vw;
+}
+
+.fancyname:hover{
+text-decoration: underline;
+color:rgb(244, 192, 35);
 }
 
 /*COLUMNS*/
@@ -73,7 +79,7 @@ p{
 .webcolumns{
     display: flex;
     align-content: space-between;
-    gap:20px;
+    gap:2vw;
     margin:20px;
     cursor: url(mouse.png), auto;
 }
@@ -160,6 +166,10 @@ p{
 
     .sidebutton{
       height:90px
+  }
+
+  .rsidebar{
+    display:none;
   }
 }
 
