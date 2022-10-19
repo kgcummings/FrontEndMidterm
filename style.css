@@ -18,7 +18,7 @@ a:hover{
 /*BG*/
 body{
     background-image: url('skystarlight.gif');
-    font-size: 30px;
+    font-size: 3vw;
     color: white;
 }
 
@@ -47,6 +47,10 @@ p{
     float:center;
     align-self: auto;
     margin-bottom: 10px;
+}
+
+.updatetext{
+  font-size:2vw;
 }
 
 .lsidebar{
@@ -136,6 +140,29 @@ p{
 
 
 /* MEDIA QUERIES */
+
+@media(min-width: 650px) and (max-width: 1000px) {
+  p{
+    font-size:2.5vw;
+  }
+
+  body{
+    font-size:4vw;
+  }
+
+  .centercol{
+    font-size:4vw;
+  }
+  
+  .updatetext{
+    font-size:4vw;
+  }
+
+    .sidebutton{
+      height:90px
+  }
+}
+
 @media(min-width: 0px) and (max-width: 650px) {
 
     .lsidebar{
@@ -151,11 +178,15 @@ p{
     }
 
     .marquee{
-        display:none
+     
     }
 
     .marquee2{
-        display:none;
+      
+    }
+
+    .updatetext{
+      font-size:4vw;
     }
 
     .mobilenav{
@@ -165,5 +196,17 @@ p{
         border-radius: 12px;
         margin: 1vw;
     }
-    
+
+body{
+  font-size: 6vw;
 }
+
+p{
+  font-size: 4.5vw;
+}
+
+.centercol{
+  font-size: 7vw;
+}
+}
+
