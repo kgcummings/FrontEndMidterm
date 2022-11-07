@@ -5,6 +5,9 @@ function buttonAlert() {
 }
 
 function helloAnimation(){
-    alert ("Oh! You found a secret!");
     document.getElementById('hello').style.transform="scale(1.1,1.1)"
+}
+
+window.onscroll = function helloRotate(){
+    document.getElementById('hello').style.transform="rotate(7deg)"
 }
